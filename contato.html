@@ -1,0 +1,42 @@
+<html>
+    <head>
+        <title>.::.</title>
+        <link rel="stylesheet" href="estilo.css">
+        <script type="text/javascript">
+            function enviar() {
+                document.getElementsByName("meuinput")[0].value = ''; 
+                document.getElementsByName("meuinput")[1].value = ''; 
+                document.getElementsByName("meuinput")[2].value = ''; 
+                alert('Obrigado!');
+            }
+        </script>
+    </head>
+    <body>
+        <div id="conteudo">
+            <div id="cabecalho">  
+            	<div id=textoCabecalho>       	
+					Café Suave - Boas Notícias
+				</div>
+            </div>
+            <div id="navbar">
+                <div><a href="index.html">Home</a></div>
+                <div><a href="sobre.html">Sobre</a></div>
+                <div class="paginaSelecionada"><a href="contato.html">Contato</a></div>
+                <div><a href="saiba.html">Saiba+</a></div>
+            </div>
+            <div id="noticiasDestaque">
+                <h2>Entre em Contato</h2>
+            </div>
+            <div class="noticias">
+                <div class="sobreDestaque">                    
+					<form action="javascript:enviar()">
+                        <div>Nome:<input type="text" name="meuinput"></div>
+                        <div>E-Mail:<input type="email" name="meuinput"></div>
+                        <div>Mensagem:<input id="idTextArea" type="text" name="meuinput"></div>
+                        <div><button>Enviar</button></div>
+                    </form>                           
+                </div>
+            </div>
+        </div>      
+    </body>
+</html>

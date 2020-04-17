@@ -1,0 +1,239 @@
+body {
+    background-color: black;
+    font-family: sans-serif;
+}
+
+#conteudo {
+    background-color: white;
+    background-image: url("imagens/background.jpg");
+    margin-left: 5%;
+    margin-right: 5%;
+    padding: 5%;
+    border: #662200 2px solid;
+    box-shadow: #662200 2px 2px 2px;
+    border-radius: 10px;
+}
+
+#cabecalho {
+    display: flex;
+    justify-content: space-around;
+    background-color: white;
+    border: #662200 2px solid;
+    box-shadow: #662200 2px 2px 2px;
+    border-radius: 10px;
+    margin-bottom: 30px;
+    align-items: center;
+}
+
+#textoCabecalho {
+    display: flex;
+    justify-content: space-around;    
+    text-align: center;
+    padding: 20px;
+    font-size: 100px;
+    color: #662200;
+    font-family: Ink Free, Helvetica, serif;
+    text-shadow: black 2px 2px 5px;
+}
+
+a {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: #662200;
+    text-decoration: unset;
+    font-weight: bold;
+}
+
+#navbar {
+    display: flex;
+    justify-content: space-between;
+    background-color: white;
+    border: #662200 2px solid;
+    border-radius: 10px;
+    padding-left: 80px;
+    padding-right: 80px;
+    box-shadow: #662200 2px 2px 2px;
+    background-color: white;
+    margin-bottom: 30px;
+}
+
+.paginaSelecionada {
+	padding-right: 2%;
+	padding-left: 2%;
+	background-color: #662200;
+}
+.paginaSelecionada a {
+	color: white;
+}
+
+#noticiasDestaque {
+    display: flex;
+    justify-content: center;   
+    padding: 0px;
+    margin-bottom: 20px;
+    align-items: center;
+}
+
+h2 {
+    font-family: Ink Free, Helvetica, serif;
+    color: white;
+    text-shadow: -3px 0 #662200, 0 5px #662200, 3px 0 #662200, 0 -5px #662200;
+    font-size: 100px;
+    margin: 0px;
+}
+
+.noticias {
+    display: flex;
+    justify-content: center;
+}
+
+.noticiaDestaque {
+    background-color: white;
+    border: #662200 2px solid;
+    border-radius: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    padding-bottom: 5px;
+    box-shadow: #662200 2px 2px 2px;
+    width: 33%;
+    height: 33%;
+    align-items: center;
+}
+
+h2 {
+	text-align: center;
+}
+
+h3 {
+    text-align: center;
+    font-size: 30px;
+}
+
+.conteudoCard {
+    height: 50%;
+    padding: 0%;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+.videoDestaque {    
+	height: 330;
+	width: 440;
+}
+
+.cabecalhoCard{
+  position: relative;
+  width: 100%;
+  padding-bottom: 56.25%;
+  height: 0;
+}
+
+.cabecalhoCard iframe{
+  position: absolute;
+  top:7%;
+  left: 5%;
+  width: 90%;
+  height: 100%;
+}
+
+.imgDestaque {
+    width: 90%;
+    padding-top: 5%;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+.descDestaque {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: justify;
+    padding: 5%;
+}
+
+.descSobre {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: justify;
+    padding: 5%;
+}
+
+.sobreDestaque {
+	display: flex;
+    justify-content: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: justify;
+    background-color: white;
+    border: #662200 2px solid;
+    border-radius: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    box-shadow: #662200 2px 2px 2px;
+    width: 60%;
+    align-items: center;
+}
+
+.imgSobreDestaque {
+    width: 100%;
+}
+
+#idAutor {
+	display: flex;
+    justify-content: center;
+	font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: #662200;
+    text-align: center;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+#idImgDestaque {
+	width: 100%;
+	padding-top: 5%;
+    padding-bottom: 5%;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+#descAutor {
+    color: #662200;
+}
+
+#linkAutor {
+	margin-top: 0%;
+	color: #662200;
+	text-align: center;
+}
+
+div form {
+	margin: 0;
+	padding: 5%;
+	width: 100%;
+}
+
+div form input {
+	width: 100%;
+}
+
+#idTextArea {
+	height: 100px;
+	margin-bottom: 2%;
+}
+
+li {
+	padding-left: 0%;
+	padding-right: 0%;
+	margin-bottom: 5%;	
+}
+
+li a {
+	font-family: Ink Free, Helvetica, serif;
+	font-size: 30px;
+}
+
+ol {
+	font-family: Ink Free, Helvetica, serif;
+	font-size: 30px;
+	padding-left: 5%;
+	padding-right: 0%;
+}
