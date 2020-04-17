@@ -186,7 +186,7 @@ h3 {
     color: #662200;
     text-align: center;
     font-weight: bold;
-    font-size: 20px;
+    font-size: 35px;
 }
 
 #idImgDestaque {
@@ -199,6 +199,7 @@ h3 {
 
 #descAutor {
     color: #662200;
+    font-size: 25px;
 }
 
 #linkAutor {
