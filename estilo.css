@@ -95,8 +95,7 @@ h2 {
     margin-bottom: 10px;
     padding-bottom: 5px;
     box-shadow: #662200 2px 2px 2px;
-    width: 33%;
-    height: 33%;
+    width: 50%;
     align-items: center;
 }
 
@@ -205,6 +204,26 @@ h3 {
 	text-align: center;
 }
 
+.saibaMaisDestaque {
+	display: flex;
+    justify-content: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: justify;
+    background-color: white;
+    border: #662200 2px solid;
+    border-radius: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    padding-top: : 10%;
+    padding-bottom: 5%;
+    padding-left: 10%;
+    padding-right: 5%;
+    box-shadow: #662200 2px 2px 2px;
+    width: 100%;
+    align-items: center;
+}
+
 div form {
 	margin: 0;
 	padding: 5%;
@@ -221,8 +240,6 @@ div form input {
 }
 
 li {
-	padding-left: 0%;
-	padding-right: 0%;
 	margin-bottom: 5%;	
 }
 
@@ -234,6 +251,7 @@ li a {
 ol {
 	font-family: Ink Free, Helvetica, serif;
 	font-size: 30px;
-	padding-left: 5%;
+	padding-top: 5%;
+	padding-left: 0%;
 	padding-right: 0%;
 }
